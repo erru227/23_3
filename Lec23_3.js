@@ -7,6 +7,6 @@ const server = http.createServer((request, response) => {
 });
 
 /*Remember, || means "or"*/
-server.listen(process.env.PORT || 3000, function() =>{
+server.listen(process.env.PORT || 3000, () =>{
     console.log("Server is running at port 3000...");
 });
